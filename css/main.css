@@ -23,11 +23,15 @@
  * to enabling/disabling pre-built components/utilities.
  */
 .bg-primary {
-  background: #cccccc;
+  background: #f2f2f2;
 }
 
 .bg-secondary {
-  background: #ccff00;
+  background: #0038FF;
+}
+
+.bg-tertiary {
+  background: #fff;
 }
 
 .bg-grey {
@@ -35,19 +39,19 @@
 }
 
 .bg-white {
-  background: #fff;
+  background: #323332;
 }
 
 .color-primary {
-  color: #01093c;
+  color: #f2f2f2;
 }
 
 .color-secondary {
-  color: #384a9a;
+  color: #0038FF;
 }
 
 .color-tertiary {
-  color: #000;
+  color: #fff;
 }
 
 .color-grey {
@@ -55,15 +59,15 @@
 }
 
 .color-white {
-  color: #212227;
+  color: #323332;
 }
 
 .font-base {
-  font-family: 'Inter', sans-serif;
+  font-family: Manrope, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .font-heading {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: Manrope, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .box-block {
@@ -411,7 +415,7 @@
 }
 
 .leading-tight {
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 .leading-normal {
@@ -921,9 +925,7 @@ body {
 h1,
 h2,
 h3 {
-  background-color: #ccff00;
-  color: #000;
-  line-height: 1.1;
+  line-height: 1.2;
   letter-spacing: -0.01rem;
 }
 
@@ -941,11 +943,18 @@ h3 {
   font-size: var(--text-700);
 }
 
+p {
+  font-family: Bitter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: 0.025rem;
+}
+
 .content {
   word-wrap: break-word;
+  letter-spacing: 0.015rem;
 }
 
 .sub-heading {
+  font-family: Manrope, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: var(--text-700);
   line-height: 1.5;
 }
@@ -961,17 +970,17 @@ a {
 }
 a:not([class]) {
   color: currentColor;
-  border-bottom: var(--border-size) solid #ccff00;
+  border-bottom: var(--border-size) solid #0038FF;
   padding-bottom: 0.1rem;
   -webkit-text-decoration-skip: ink;
           text-decoration-skip-ink: auto;
 }
 a:not([class]):hover {
-  color: #ccff00;
+  color: #0038FF;
 }
 
 :focus {
-  outline: 1px solid #24e0d0;
+  outline: 1px solid #0038FF;
   outline-offset: 0.25rem;
 }
 
@@ -992,7 +1001,7 @@ a:not([class]):hover {
   margin: 0 auto;
 }
 .logo:hover {
-  color: #ccff00;
+  color: #0038FF;
 }
 
 @media (min-width : 40em) {
@@ -1012,16 +1021,15 @@ a:not([class]):hover {
   line-height: 3.05rem;
 }
 .nav .link.active, .nav .link:hover {
-  color: #000;
-  border-bottom: var(--border-size) solid #ccff00;
+  color: #0038FF;
 }
 .nav .link-get-started {
   border-radius: var(--border-radius);
   transition: background-color var(--transition-duration) var(--transition-timing);
 }
 .nav .link-get-started:hover {
-  background: #fff;
-  color: #01093c;
+  background: #323332;
+  color: #f2f2f2;
 }
 
 .mobile-nav {
@@ -1043,7 +1051,7 @@ a:not([class]):hover {
   padding: var(--gap) 0;
 }
 .mobile-nav .link.active, .mobile-nav .link:hover {
-  color: #24e0d0;
+  color: #0038FF;
 }
 
 .mobile-nav-toggle {
@@ -1107,16 +1115,16 @@ a:not([class]):hover {
 
 .button {
   display: inline-block;
-  background-color: #ccff00;
+  background-color: #0038FF;
   border: 0;
   border-radius: var(--border-radius);
-  color: #000;
+  color: #f2f2f2;
   padding: 0.8rem 1.25rem;
   transition: background-color var(--transition-duration) var(--transition-timing);
   font-weight: 700;
 }
 .button:hover {
-  background: #fff;
+  background: #323332;
 }
 
 .pagination {
@@ -1143,7 +1151,7 @@ a:not([class]):hover {
 }
 
 .social-icons .icon-link:hover {
-  color: #ccff00;
+  color: #0038FF;
 }
 .social-icons .icon {
   --social-icon-size: 1.25rem;
@@ -1200,11 +1208,11 @@ a:not([class]):hover {
   padding: 0.25rem 0.5rem;
 }
 .card-title-link {
-  border-bottom: var(--border-size) solid #212227;
+  border-bottom: var(--border-size) solid #0038FF;
   transition: border-color var(--transition-duration) var(--transition-timing);
 }
 .card-title-link:hover {
-  border-bottom-color: #ccff00;
+  border-bottom-color: #f2f2f2;
 }
 .card .datetime {
   position: absolute;

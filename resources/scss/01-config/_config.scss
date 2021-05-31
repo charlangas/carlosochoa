@@ -34,10 +34,11 @@ $gorko-size-scale: (
  * You can also use them to power borders, fills or shadows, for example.
  */
 $gorko-colors: (
-    'primary': #01093c,
-    'secondary': #24e0d0,
+    'primary': #f2f2f2,
+    'secondary': #0038FF,
+    'tertiary' : #fff,
     'grey': #4e5b71,
-    'white': #fff
+    'white': #323332
 );
 
 /**
@@ -58,8 +59,8 @@ $gorko-config: (
     ),
     'font': (
         'items': (
-            'base': 'ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif',
-            'heading': 'ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif'
+            'base': 'Manrope, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif',
+            'heading': 'Manrope, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif',
         ),
         'output': 'standard',
         'property': 'font-family'
@@ -122,7 +123,7 @@ $gorko-config: (
     ),
     'leading': (
         'items': (
-            'tight': '1.1',
+            'tight': '1.2',
             'normal': '1.6',
             'loose': '2'
         ),
@@ -186,5 +187,3 @@ $gorko-config: (
         'desktopXL' : '(min-width : 120em)' // 1920px
     )
 );
-
-

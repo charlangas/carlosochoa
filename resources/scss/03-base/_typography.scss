@@ -28,12 +28,19 @@ h3 {
     font-size: v(text-700);
 }
 
+p {
+  font-family: Bitter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: 0.025rem;
+}
+
 .content {
     word-wrap: break-word;
+    letter-spacing: .015rem;
 }
 
 // sub-heading
 .sub-heading {
+    font-family: Manrope, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: v(text-700);
     line-height: 1.5;
 }
@@ -43,4 +50,3 @@ ol,
 ul {
     padding: 0 0 0 get-size('500');
 }
-
