@@ -9,4 +9,4 @@ eleventyNavigation:
   order: 1
 ---
 
-I'm a writer, designer, and marketer.
+I'm a writer, designer, and marketer and I don't know why my CSS updates are not being loaded onto netlify
