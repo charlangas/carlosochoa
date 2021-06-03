@@ -1,7 +1,7 @@
 ---
 layout: blog
 meta_title: Blog
-meta_description: The Skeleventy blog - a place to voice our useless opinions.
+meta_description: Carlos Ochoa's blog.
 hide_from_sitemap: true
 robots: noindex,follow
 title: The blog
@@ -10,4 +10,4 @@ eleventyNavigation:
   order: 3
 ---
 
-A place to voice our useless opinions.
+A few thoughts and how-to's you might find useful.

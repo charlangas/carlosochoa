@@ -9,7 +9,7 @@ eleventyNavigation:
   order: 1
 ---
 
-I'm currently doing growth marketing at <a href="https://www.storyswag.co" target="_blank">Story Swag</a>, an amazing iOS app that allows anyone to create gorgeous slideshows using your own videos and photos. I like to think about it like a Canva for video.
+I'm currently doing growth marketing at <a href="https://www.storyswag.co" target="_blank">Story Swag</a>, an amazing iOS app that allows anyone to create gorgeous slideshows using your own videos and photos. You could say it's like a Canva for video.
 
 I believe in learning by doing, so I'm on a mission to launch a new side project for every new skill I want to try out.
 

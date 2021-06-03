@@ -9,7 +9,7 @@ eleventyNavigation:
   order: 2
 ---
 
-I've been in marketing for about 10 years, working remotely for the past 9, mostly doing Facebook Ads and social media strategy for CPG brands, but for the past 2 years or so more focused on growth marketing and conversion optimization between my own projects and my full time job.
+I've been in marketing for about 10 years, working remotely for the past 9, mostly doing Facebook Ads and social media strategy for CPG brands, but for the past 2 years or so more focused on growth marketing and conversion optimization between my own projects and my full time job. <a href="/images/CarlosOchoa-Resume.pdf" target="_blank">Download my resume here</a>.
 
 ## Professional Experience
 
