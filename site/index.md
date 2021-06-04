@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 meta_title: Carlos Ochoa
 meta_description: Personal site.
 title: Hi, I'm Carlos Ochoa.

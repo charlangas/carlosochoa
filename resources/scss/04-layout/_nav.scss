@@ -9,7 +9,8 @@
 
         &.active,
         &:hover {
-            @include apply-utility('color', 'secondary');
+            @include apply-utility('color', 'grey');
+            border-bottom: 2px solid #ccff00;
         }
 
         &-get-started {
