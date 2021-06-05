@@ -23,7 +23,7 @@
  * to enabling/disabling pre-built components/utilities.
  */
 .bg-primary {
-  background: #f8f8f8;
+  background: #eee;
 }
 
 .bg-secondary {
@@ -31,7 +31,7 @@
 }
 
 .bg-tertiary {
-  background: #fff;
+  background: #272932;
 }
 
 .bg-grey {
@@ -39,11 +39,11 @@
 }
 
 .bg-white {
-  background: #323332;
+  background: #fff;
 }
 
 .color-primary {
-  color: #f8f8f8;
+  color: #eee;
 }
 
 .color-secondary {
@@ -51,7 +51,7 @@
 }
 
 .color-tertiary {
-  color: #fff;
+  color: #272932;
 }
 
 .color-grey {
@@ -59,7 +59,7 @@
 }
 
 .color-white {
-  color: #323332;
+  color: #fff;
 }
 
 .font-base {
@@ -1021,7 +1021,7 @@ a:not([class]):hover {
   line-height: 3.05rem;
 }
 .nav .link.active, .nav .link:hover {
-  color: #4e5b71;
+  color: #d1ff19;
   border-bottom: 2px solid #ccff00;
 }
 .nav .link-get-started {
@@ -1029,8 +1029,8 @@ a:not([class]):hover {
   transition: background-color var(--transition-duration) var(--transition-timing);
 }
 .nav .link-get-started:hover {
-  background: #323332;
-  color: #f8f8f8;
+  background: #fff;
+  color: #272932;
 }
 
 .mobile-nav {
@@ -1119,13 +1119,13 @@ a:not([class]):hover {
   background-color: #d1ff19;
   border: 0;
   border-radius: var(--border-radius);
-  color: #f8f8f8;
+  color: #eee;
   padding: 0.8rem 1.25rem;
   transition: background-color var(--transition-duration) var(--transition-timing);
   font-weight: 700;
 }
 .button:hover {
-  background: #323332;
+  background: #fff;
 }
 
 .pagination {
@@ -1213,7 +1213,7 @@ a:not([class]):hover {
   transition: border-color var(--transition-duration) var(--transition-timing);
 }
 .card-title-link:hover {
-  border-bottom-color: #f8f8f8;
+  border-bottom-color: #eee;
 }
 .card .datetime {
   position: absolute;

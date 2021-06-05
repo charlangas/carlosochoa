@@ -9,7 +9,7 @@
 
         &.active,
         &:hover {
-            @include apply-utility('color', 'grey');
+            @include apply-utility('color', 'secondary');
             border-bottom: 2px solid #ccff00;
         }
 
@@ -19,7 +19,7 @@
 
             &:hover {
                 @include apply-utility('bg', 'white');
-                @include apply-utility('color', 'primary');
+                @include apply-utility('color', 'tertiary');
             }
         }
     }
