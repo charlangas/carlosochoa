@@ -933,6 +933,7 @@ h1 {
   --gap: 1.95rem;
   font-size: var(--text-900);
   margin: 0 0 var(--gap);
+  color: #d1ff19;
 }
 
 h2 {
