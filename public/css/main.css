@@ -27,11 +27,11 @@
 }
 
 .bg-secondary {
-  background: #d1ff19;
+  background: #3BFF89;
 }
 
 .bg-tertiary {
-  background: #272932;
+  background: #fff;
 }
 
 .bg-grey {
@@ -39,7 +39,7 @@
 }
 
 .bg-white {
-  background: #fff;
+  background: #000;
 }
 
 .color-primary {
@@ -47,11 +47,11 @@
 }
 
 .color-secondary {
-  color: #d1ff19;
+  color: #3BFF89;
 }
 
 .color-tertiary {
-  color: #272932;
+  color: #fff;
 }
 
 .color-grey {
@@ -59,7 +59,7 @@
 }
 
 .color-white {
-  color: #fff;
+  color: #000;
 }
 
 .font-base {
@@ -933,7 +933,7 @@ h1 {
   --gap: 1.95rem;
   font-size: var(--text-900);
   margin: 0 0 var(--gap);
-  color: #d1ff19;
+  color: #3BFF89;
 }
 
 h2 {
@@ -971,17 +971,17 @@ a {
 }
 a:not([class]) {
   color: currentColor;
-  border-bottom: var(--border-size) solid #d1ff19;
+  border-bottom: var(--border-size) solid #3BFF89;
   padding-bottom: 0.1rem;
   -webkit-text-decoration-skip: ink;
           text-decoration-skip-ink: auto;
 }
 a:not([class]):hover {
-  color: #d1ff19;
+  color: #3BFF89;
 }
 
 :focus {
-  outline: 1px solid #d1ff19;
+  outline: 1px solid #3BFF89;
   outline-offset: 0.25rem;
 }
 
@@ -1002,7 +1002,7 @@ a:not([class]):hover {
   margin: 0 auto;
 }
 .logo:hover {
-  color: #d1ff19;
+  color: #3BFF89;
 }
 
 @media (min-width : 40em) {
@@ -1022,16 +1022,16 @@ a:not([class]):hover {
   line-height: 3.05rem;
 }
 .nav .link.active, .nav .link:hover {
-  color: #d1ff19;
-  border-bottom: 2px solid #ccff00;
+  color: #3BFF89;
+  border-bottom: 2px solid #3BFF89;
 }
 .nav .link-get-started {
   border-radius: var(--border-radius);
   transition: background-color var(--transition-duration) var(--transition-timing);
 }
 .nav .link-get-started:hover {
-  background: #fff;
-  color: #272932;
+  background: #000;
+  color: #fff;
 }
 
 .mobile-nav {
@@ -1053,7 +1053,7 @@ a:not([class]):hover {
   padding: var(--gap) 0;
 }
 .mobile-nav .link.active, .mobile-nav .link:hover {
-  color: #d1ff19;
+  color: #3BFF89;
 }
 
 .mobile-nav-toggle {
@@ -1117,7 +1117,7 @@ a:not([class]):hover {
 
 .button {
   display: inline-block;
-  background-color: #d1ff19;
+  background-color: #3BFF89;
   border: 0;
   border-radius: var(--border-radius);
   color: #eee;
@@ -1126,7 +1126,7 @@ a:not([class]):hover {
   font-weight: 700;
 }
 .button:hover {
-  background: #fff;
+  background: #000;
 }
 
 .pagination {
@@ -1153,7 +1153,7 @@ a:not([class]):hover {
 }
 
 .social-icons .icon-link:hover {
-  color: #d1ff19;
+  color: #3BFF89;
 }
 .social-icons .icon {
   --social-icon-size: 1.25rem;
@@ -1210,7 +1210,7 @@ a:not([class]):hover {
   padding: 0.25rem 0.5rem;
 }
 .card-title-link {
-  border-bottom: var(--border-size) solid #d1ff19;
+  border-bottom: var(--border-size) solid #3BFF89;
   transition: border-color var(--transition-duration) var(--transition-timing);
 }
 .card-title-link:hover {
